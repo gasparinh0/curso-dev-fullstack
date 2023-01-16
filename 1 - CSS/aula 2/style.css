@@ -1,0 +1,16 @@
+/* FORMAS DE REALIZAR CORES EM CSS
+digitar o nome da cor (exemplo: background: red;)
+digitar o código RGB (exemplo: background: rgb(123,414,151)
+BÔNUS: adicionar transparência a cor (exemplo: background: rgba(123,123,422,0.423)
+digitar o código hexadecimal (exemplo: background: #cecece)
+
+BÔNUS: converter código hexadecimal em rgb: https://www.rapidtables.com/convert/color/hex-to-rgb.html
+*/
+
+body {
+    background: #dfdfdf;
+}
+
+p{
+    color: #222222;
+}

@@ -1,0 +1,37 @@
+/* FORMAS DE REALIZAR CORES EM CSS
+digitar o nome da cor (exemplo: background: red;)
+digitar o código RGB (exemplo: background: rgb(123,414,151)
+BÔNUS: adicionar transparência a cor (exemplo: background: rgba(123,123,422,0.423)
+digitar o código hexadecimal (exemplo: background: #cecece)
+
+BÔNUS: converter código hexadecimal em rgb: https://www.rapidtables.com/convert/color/hex-to-rgb.html
+
+Documentação CSS: https://www.w3schools.com/css/default.asp
+*/
+
+body {
+    background: #dfdfdf;
+}
+
+p{
+    color: #222222;
+}
+
+.foto-principal{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 300px;
+    margin: 30px;
+    padding: 5px;
+    
+    /* MANEIRAS DIFERENTES DE REALIZAR MARGIN */
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px; */
+
+    /* MANEIRAS DIFERENTES DE REALIZAR BORDER */
+    /* border-radius: 50% 10% 30% 20%; (cada valor representa um canto da imagem em sentido horário) */
+    /* border-width: 5px; */
+    /* border-style: dashed; */
+    /* border-color: black; */
+}
